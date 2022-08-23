@@ -1,0 +1,19 @@
+#map { 
+    height: 800px;
+    background-color: rgba(88, 97, 228, 0.384);
+}
+#map::before{
+    content: 'Loading Map';
+    font-size: 3em;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    margin-top: 3em;
+}
+.leaflet-popup-content-wrapper {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
